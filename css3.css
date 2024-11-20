@@ -1,0 +1,100 @@
+/* Dark Theme Colors */
+:root {
+    --background-dark: #121212; /* Main background */
+    --background-light: #1e1e1e; /* Secondary background */
+    --card-bg: #2b2b2b; /* Card background */
+    --accent: #bb86fc; /* Accent color */
+    --accent-hover: #3700b3; /* Hover accent */
+    --text-light: #ffffff; /* Primary text */
+    --text-muted: #b0b0b0; /* Muted text */
+    --border-color: #2c2c2c; /* Border color */
+}
+
+/* General Background */
+body {
+    background-color: var(--background-dark);
+    color: var(--text-light);
+}
+
+/* Left Section */
+.left {
+    background-color: var(--background-light);
+    border-radius: 10px;
+}
+
+/* Right Section */
+.right {
+    background-color: var(--background-light);
+    border-radius: 10px;
+}
+
+/* Home & Library Sections */
+.home, .library {
+    background-color: var(--card-bg);
+    color: var(--text-light);
+    border-radius: 7px;
+}
+
+/* Home List Items */
+.homelist li {
+    color: var(--text-light);
+}
+
+.library li:hover{
+    color: #121212;
+    background-color: #bb86fc;
+}
+
+/* Footer */
+.footer {
+    color: var(--text-muted);
+}
+
+.footer a {
+    color: var(--accent);
+}
+
+.footer a:hover {
+    color: var(--accent-hover);
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: var(--background-light);
+}
+
+.login {
+    background-color: var(--accent);
+    color: var(--text-light);
+}
+
+.login:hover {
+    background-color: var(--accent-hover);
+}
+
+/* Card Container and Cards */
+.cardcon {
+    background-color: var(--background-light);
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--text-light);
+}
+
+.card:hover {
+    background-color: var(--accent);
+    color: var(--background-dark);
+}
+.playbar{
+    background-color: var(--accent);
+}
+.loadbar{
+    background-color: var(--background-dark);
+}
+.circle{
+    background-color: #3700b3;
+}
+.name{
+    color: #ffffff;
+}
